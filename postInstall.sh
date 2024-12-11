@@ -19,7 +19,7 @@ if [ -f $file_b ];then
     if cmp -s $file_a $file_b ; 
     then echo Same 
     else 
-        read -p "Ситраю нахер?[y/n]: " par
+        read -p "Ситраю нахер? [y/n]: " par
         if [[ "$par" =~ $AGRE ]]; then
             rm -r \\PortableGit\\etc\\profile.d\\_user_settings.sh
             cp _user_settings.sh  \\PortableGit\\etc\\profile.d\\_user_settings.sh 
