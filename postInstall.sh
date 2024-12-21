@@ -1,4 +1,5 @@
 #!/bin/bash
+cd ..
 DIR=\\PortableGit\\_home
 REP=$DIR\\_repos
 SSH_K=$DIR\\ssh_keys
